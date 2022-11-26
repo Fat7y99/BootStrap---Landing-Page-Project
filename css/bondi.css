@@ -118,3 +118,21 @@ body {
   max-width: 500px;
 }
 /* .our-work .box["work-name"] */
+.our-team {
+  background-color: var(--section-color);
+}
+.our-team h4 {
+  color: white;
+  padding: 1rem 0.5;
+  background-color: var(--green-color);
+}
+.our-team .box {
+  background-color: white;
+}
+.our-team h1 {
+  color: var(--btn-text-color);
+}
+.project {
+  color: white;
+  background-color: var(--dark-color);
+}
