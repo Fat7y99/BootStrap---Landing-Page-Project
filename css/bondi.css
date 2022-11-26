@@ -114,4 +114,7 @@ body {
 .our-work .section-btn:hover {
   color: var(--btn-color);
 }
+.desription {
+  max-width: 500px;
+}
 /* .our-work .box["work-name"] */
