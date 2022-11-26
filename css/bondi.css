@@ -4,6 +4,7 @@
   --btn-color: #ff3150;
   --btn-text-color: #ffc400;
   --section-color: #eff7fa;
+  --our-work-color: #eff7fa;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -72,4 +73,18 @@ body {
 }
 .features h4 {
   color: var(--btn-text-color);
+}
+.our-work {
+  background-color: var(--section-color);
+}
+.our-work ul .active {
+  background-color: var(--btn-color);
+  color: var(--btn-text-color);
+}
+.our-work ul li:not(.active):hover {
+  color: var(--btn-color);
+}
+.our-work ul li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
 }
