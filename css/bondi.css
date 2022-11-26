@@ -88,3 +88,30 @@ body {
   padding: 0.5rem 1rem;
   cursor: pointer;
 }
+.our-work .box {
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.our-work .box::before {
+  content: attr(work-name);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  background-color: rgba(51, 209, 204, 0.76);
+  height: calc(100% - 10px);
+  width: calc(100% - 10px);
+  transition: 0.3s;
+  color: white;
+  font-weight: bold;
+  font-size: 1.6rem;
+  transform: translateX(calc(-100% - 5px));
+}
+.our-work .box:hover::before {
+  transform: translateX(0);
+}
+.our-work .section-btn:hover {
+  color: var(--btn-color);
+}
+/* .our-work .box["work-name"] */
