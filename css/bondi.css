@@ -67,6 +67,9 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+.features p {
+  color: rgba(0, 0, 0, 0.5);
+}
 .features h4 {
   color: var(--btn-text-color);
 }
