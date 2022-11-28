@@ -111,8 +111,9 @@ body {
   transform: translateX(0);
 }
 .our-work .section-btn:hover,
-.our-blog .section-btn:hover {
-  color: var(--btn-color);
+.our-blog .main-btn:hover,
+.our-stuff .main-btn:hover {
+  color: var(--btn-text-color);
 }
 .desription {
   max-width: 500px;
