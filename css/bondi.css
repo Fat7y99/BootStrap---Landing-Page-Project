@@ -110,7 +110,8 @@ body {
 .our-work .box:hover::before {
   transform: translateX(0);
 }
-.our-work .section-btn:hover {
+.our-work .section-btn:hover,
+.our-blog .section-btn:hover {
   color: var(--btn-color);
 }
 .desription {
